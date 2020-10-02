@@ -17,3 +17,7 @@ totalList.remove(10)  # 만약 중복되는 숫자가 해당 리스트에 있으
 print(totalList)
 del(totalList[9])  # 내가 원하는 인덱스 위치에 있는 숫자를 지우고 싶을때 del() 함수를 써도 됨
 print(totalList)
+
+list3 = [1, 2, 3, 4, 5]
+list3 = list3[::-1]    # simple trick to reverse a list
+print(list3)
